@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Farewell Scott</title>
+        <style>
+            body {
+                    background-color: #f2f2f2;
+                    }
+            h1 {
+                color: black;
+                font-family: Helvetica, 'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
+            }
+
+            p {
+                color: rgb(1, 20, 3);
+                font-family: Helvetica, 'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            .column1 {
+                float: left;
+                width: 60%;
+            }
+
+            .column2 {
+                float: left;
+                width: 40%;
+            }
+
+           
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+
+            }
+            .panel1{
+                width: 600px;
+                height: fit-content;
+                background-color: lightblue;
+                border: 10px solid lightblue;
+                padding: 100 px;
+                margin: 100 px;
+                border-radius: 25px;
+            }
+            .panel2{
+                width: 600px;
+                height: fit-content;
+                background-color: #ccebf4;
+                border: 10px solid #ccebf4;
+                padding: 100 px;
+                margin: 100 px;
+                border-radius: 25px;
+            }
+
+            .panel3{
+                width: 100%;
+                height: fit-content;
+                background-color: rgb(42, 1, 42);
+                border: 10px solid rgb(42, 1, 42);
+                padding: 100 px;
+                margin: 100 px;
+                border-radius: 2px;
+            }
+            
+
+            @keyframes farewell {
+                0%  {background-color:rgb(155, 79, 155); left:0px; top:0px;}
+                20%  {background-color:rgb(155, 79, 155); left:200px; top:0px;}
+                40%  {background-color:orchid; left:400px; top:0px;}
+                60%  {background-color:orange; left:600px; top:0px;}
+                80% {background-color:orange; left:800px; top:0px;}
+                100% {background-color:orange; left:1000px; top:0px;}
+            }  
+
+            .farewell{
+                width: 120px;
+                height: 120px;
+                border-radius: 50px;
+                background: rgb(155, 79, 155);
+                animation-name:farewell;
+                position:relative;
+                animation-duration: 8s;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: 3;
+                animation-direction:alternate;
+                transition: width 2s, height 2s, transform 2s;
+            }
+
+            .farewell:hover {
+                width: 150px;
+                height: 150px;
+                border-radius: 50px;
+                transform: rotate(360deg);
+                
+            }
+        
+
+            .center{
+                text-align:center;
+            }
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                border-radius: 50%;
+                display:grid;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            tr:hover {background-color: rgb(196, 193, 193);}
+
+        </style>
+        <script src="https://kit.fontawesome.com/15a7aa20dc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div style= "display:flex; flex-direction:column; align-items:center;">
+        <div class="panel3">
+       
+        <div class="center">
+            <p></p>
+            <p></p>
+        <h1 style="font: Helvetica,Open Sans, Tahoma, Ariel;color: white;"><span><i class="fa-solid fa-heart-crack"></i></span> Farewell Scott <span><i class="fa-solid fa-sailboat"></i></span></h1>
+    
+        </div>
+        </div>
+        </div>
+       <p></p>
+       
+       <table>
+        <tr>
+            <th>
+                <img src="Emma.png" alt="Emma" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel1">
+                    <div style= "display:flex; flex-direction:column; align-items:center;">
+                        <section id="Emma's Message">
+                            <p>Hi Scott, I can't believe it has been over six years since with both started with IDI that was. It has been an absolute pleasure working with you. You are amazingly skill but also increibly helpful and approachable, so your support and guidance has been highly valued over our time working together. You have been an incredible asset to the team, both in terms of the wortk you do as well as your contribution to the team culture. We will miss you greatly and I wish you all the best for the future. </p>
+                        </section>
+                    </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="Joanna.png" alt="Joanna" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel2">
+                <section id="Joanna's Message">
+                    <p>This is a message from Joanna.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="Aideen.png" alt="Aideen" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel1">
+                <section id="Aideen's Message">
+                    <p>This is a message from Aideen.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="JoeL.png" alt="JoeL" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel2">
+                <section id="Joe L's Message">
+                    <p style="font-weight: normal;">This is a message from Joe L.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="JoeS.png" alt="JoeS" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel1">
+                <section id="Joe s's Message">
+                    <p>This is a message from Joe S.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="Courteney.png" alt="Courteney" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel2">
+                <section id="Courteney's Message">
+                    <p>This is a message from Courteney.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="Ross.png" alt="Ross" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel1">
+                <section id="Ross's Message">
+                    <p>This is a message from Ross.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <img src="Korina.png" alt="Korina" width="300" height=auto> 
+            </th>
+            <th>
+                <div class="panel2">
+                <section id="Korina's Message">
+                    <p>This is a message from Korina.</p>
+                </section>
+            </div>
+            </th>
+        </tr>
+       </table>
+
+       <p></p>
+       <div class="farewell">
+        <div style= "display:flex; flex-direction:column; align-items:center;">
+        <div class="center">
+            <p style="font-size: x-large;font-weight: bold;color:#ffffff">We will miss you!</p>
+        </div>
+        </div>
+   </div>
+   <hr>
+
+        <p>[IMG PLACEHOLDER]</p>
+        <div class="row">
+            <div class="column2">
+                <p>PLACEHOLDER</p> 
+            </div>
+        <div class="column1">
+        <div>
+            <div class="panel1">
+                <div style= "display:flex; flex-direction:column; align-items:center;">
+                    <section id="Emma's Message">
+                        <p>Hi Scott, I can't believe it has been over six years since with both started with IDI that was. It has been an absolute pleasure working with you. You are amazingly skill but also increibly helpful and approachable, so your support and guidance has been highly valued over our time working together. You have been an incredible asset to the team, both in terms of the wortk you do as well as your contribution to the team culture. We will miss you greatly and I wish you all the best for the future. </p>
+                    </section>
+                </div>
+            </div>
+            <p></p>
+            <div class="panel2">
+                <section id="Joanna's Message">
+                    <p>This is a message from Joanna.</p>
+                </section>
+            </div>
+            <p></p>
+            <div class="panel1">
+            <section id="Aideen's Message">
+                <p>This is a message from Aideen.</p>
+            </section>
+            </div>
+            <p></p>
+            <div class="panel2">
+            <section id="Joe L's Message">
+                <p>This is a message from Joe L.</p>
+            </section>
+            </div>
+            <p></p>
+            <div class="panel1">
+            <section id="Joe S's Message">
+                <p>This is a message from Joe S.</p>
+            </section>
+            </div>
+            <p></p>
+            <div class="panel2">
+            <section id="Courteney's Message">
+                <p>This is a message from Courteney.</p>
+            </section>
+            </div>
+            <p></p>
+            <div class="panel1">
+            <section id="Ross's Message">
+                <p>This is a message from Ross.</p>
+            </section>
+            </div>
+            <p></p>
+            <div class="panel1">
+            <section id="Korina's Message">
+            <p>This is a message from Korina.</p>
+            </section>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+    <ul>
+        <li><a href="#Emma's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Emma-(Round).png?csf=1&web=1&e=TxYgt0" width="25%"></a></li>
+        <li><a href="#Joanna's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Joanna%20New%20-%20Circular.png?csf=1&web=1&e=VaSsuE" width="25%"></a></li>
+        <li><a href="#Aideen's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Aideen%20(Circle).png?csf=1&web=1&e=NNxRnt" width="25%"></a></li>
+        <li><a href="#Joe L's Message"><img src= "https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Joe%20(2022)%20-%20Round.png?csf=1&web=1&e=cMlLp4" width="25%"></a></li>
+        <li><a href="#Joe S's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Joe%20S_Round.png?csf=1&web=1&e=ErCPHz" width="25%"></a></li>
+        <li><a href="#Courteney's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Courteney_Round.png?csf=1&web=1&e=FmXH9a" width="25%"></a></li>
+        <li><a href="#Ross's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Ross-(Round).png?csf=1&web=1&e=yvxt2W" width="25%"></a></li>
+        <li><a href="#Korina's Message"><img src="https://onlineeducationservices.sharepoint.com/:i:/r/sites/EdinburghTeam-UK-DesignTeam/Shared%20Documents/1.%20OES/All%20Staff%20Photos/Korina.png?csf=1&web=1&e=W5G4u1" width="25%"></a></li>
+    </ul>
+                 
+        <hr> 
+    
+    </body>
+</html>
