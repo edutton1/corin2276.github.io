@@ -5,20 +5,30 @@
         <link rel="icon" type="image/x-icon" href="Scott.png">
         <style>
             body {
-                    background-color: #f2f2f2;
+                    background-color: rgb(38, 1, 38);
                     }
             h1 {
                 color: black;
-                font-family: Helvetica, 'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
-                font-size: xx-large;
-                font-weight: lighter;
+                font-family: Helvetica,'Open Sans','Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
             }
 
             p {
                 color: rgb(1, 20, 3);
-                font-family: Helvetica, 'Segoe UI', Tahoma, "Geneva", Verdana, sans-serif;
+                font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
                 font-size: 16px;
                 font-weight: normal;
+            }
+
+            .header{
+                padding: 60px;
+                height: 150px;
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: left;
+                background: rgb(38, 1, 38);
+                color: rgb(38, 1, 38);
+                font-size: 30px;
+                border: 1px solid;
             }
             .column1 {
                 float: left;
@@ -38,34 +48,35 @@
 
             }
             .panel1{
-                width: 600px;
+                width: 80%;
                 height: fit-content;
                 background-color: lightblue;
                 border: 10px solid lightblue;
-                padding: 100 px;
-                margin: 100 px;
+                padding: 10px;
                 border-radius: 25px;
+                box-shadow: 3px 3px 5px #9c9a9a;
+                margin-right: 100px;
             }
             .panel2{
-                width: 600px;
+                width: 80%;
                 height: fit-content;
                 background-color: #ccebf4;
                 border: 10px solid #ccebf4;
-                padding: 100 px;
-                margin: 100 px;
+                padding: 10px;
                 border-radius: 25px;
+                box-shadow: 3px 3px 5px #9c9a9a;
+                margin-right: 100px;
             }
 
             .panel3{
-                width: 100%;
-                height: 500px;
+                width: auto;
                 height: fit-content;
-                background-color: rgb(42, 1, 42);
-                border: 10px solid rgb(42, 1, 42);
-                padding: 100 px;
-                margin: 100 px;
+                background-color: rgb(43, 30, 88);
+                border: 10px solid rgb(43, 30, 88);
+                padding: 10px;
                 border-radius: 2px;
             }
+            
 
             @keyframes farewell {
                 0%  {background-color:rgb(155, 79, 155); left:0px; top:0px;}
@@ -101,67 +112,96 @@
         
 
             .center{
-                text-align:center;
+                margin-left: auto;
+                margin-right: auto;
             }
             img{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 50%;
-                border-radius: 50%;
-                object-fit: contain;
+                width: 70%;
+                border-radius: 70%;
+                object-fit:contain;
+            }
+
+            figcaption{
+                text-align: center;
+                font: 'Open Sans','Segoe UI', Tahoma;
+                font-size: 16px;
+                font-weight: lighter;
             }
 
             table {
+                background-color: #f2f2f2;
                 border-collapse: collapse;
-                width: 100%;
+                width: 90%;
+                align-items:center;
+                margin: 0px;
+                border-radius: 5px;
+            }
+
+            tr{
+                vertical-align: middle;
             }
 
             th, td {
-                padding: 8px;
+                padding: 20px;
+                margin: 0px;
                 text-align: left;
                 border-bottom: 1px solid #ddd;
+                border-width: 100%;
             }
 
-            tr:hover {background-color: rgb(196, 193, 193);}
+            tr:hover {
+                background-color: rgb(163, 180, 186); 
+            }
+
+            
 
         </style>
         <script src="https://kit.fontawesome.com/15a7aa20dc.js" crossorigin="anonymous"></script>
     </head>
     <body>
-    <div style="overflow: hidden; width: 100%;">
         
-        <div style= "display:flex; flex-direction:column; align-items:center;">
-        <div class="panel3">
        
-        <div class="center">
+        <div class="header">
+       
+       
             <p></p>
             <p></p>
-        <h1 style="font: Helvetica,Open Sans, Tahoma, Ariel;color: white;"> Farewell Scott <span><i class="fa-solid fa-sailboat"></i></span></h1>
+        <h1 style="font: Open Sans; color: white; font-size: 50px;font-weight: lighter;"> 
+            <span><i class="fa-regular fa-paper-plane fa-bounce"></i></span> <span><i class="fa-solid fa-sailboat"></i></span> Farewell Scott 
+            </h1>
+            <p></p>
+            <p></p>
+            <p style="font: Open Sans;font-size: 26px;
+            font-weight: lighter; font-style: italic; 
+            text-align: right;vertical-align:bottom; color:white;">...Goodbye and good luck from all of us!</p>
     
         </div>
-        </div>
-        </div>
        <p></p>
-       
-       <table>
+       <div style= "display:table; table-layout:fixed; align-items:center;">
+        <table class="center" style="table-layout:fixed;">
         <tr>
             <th>
-                <img src="Emma.png" alt="Emma" width="300" height=auto> 
+                <figure><img src="Emma.png" alt="Emma" width="300px" 
+                    height=auto><figcaption><p style="font-size: 14px;">Emma</p></figcaption></figure>
             </th>
-            <th>
+            <th style="width:60%">
                 <div class="panel1">
-                    <div style= "display:flex; flex-direction:column; align-items:center;">
+                    
                         <section id="Emma's Message">
-                            <p>Hi Scott, I can't believe it has been over six years since with both started with IDI that was. It has been an absolute pleasure working with you. You are amazingly skill but also increibly helpful and approachable, so your support and guidance has been highly valued over our time working together. You have been an incredible asset to the team, both in terms of the wortk you do as well as your contribution to the team culture. We will miss you greatly and I wish you all the best for the future. </p>
+                            <p>Hi Scott, I can't believe it has been over six years since we both started with IDI that was. It has been an absolute pleasure working with you. You are amazingly skill but also increibly helpful and approachable, so your support and guidance has been highly valued over our time working together. You have been an incredible asset to the team, both in terms of the wortk you do as well as your contribution to the team culture. We will miss you greatly and I wish you all the best for the future. </p>
                         </section>
-                    </div>
+                    
             </th>
         </tr>
 
         <tr>
             <th>
-                <img src="Joanna.png" alt="Joanna" width="300" height=auto> 
+               <figure>
+                <img src="Joanna.png" alt="Joanna" width="300" height=auto>
+            <figcaption><p style="font-size: 14px;">Joanna</p></figcaption></figure> 
             </th>
             <th>
                 <div class="panel2">
@@ -174,7 +214,9 @@
 
         <tr>
             <th>
+            <figure>
                 <img src="Aideen.png" alt="Aideen" width="300" height=auto> 
+            <figcaption><p style="font-size: 14px;">Aideen</p></figcaption></figure>
             </th>
             <th>
                 <div class="panel1">
@@ -187,7 +229,8 @@
 
         <tr>
             <th>
-                <img src="JoeL.png" alt="JoeL" width="300" height=auto> 
+               <figure> <img src="JoeL.png" alt="JoeL" width="300" height=auto> 
+            <figcaption><p style="font-size: 14px;">Joe L.</p></figcaption></figure>
             </th>
             <th>
                 <div class="panel2">
@@ -200,7 +243,8 @@
 
         <tr>
             <th>
-                <img src="JoeS.png" alt="JoeS" width="300" height=auto> 
+             <figure> <img src="JoeS.png" alt="JoeS" width="300" height=auto> 
+            <figcaption><p style="font-size: 14px;">Joe S.</p></figcaption></figure> 
             </th>
             <th>
                 <div class="panel1">
@@ -213,7 +257,8 @@
 
         <tr>
             <th>
-                <img src="Courteney.png" alt="Courteney" width="300" height=auto> 
+            <figure> <img src="Courteney.png" alt="Courteney" width="300" height=auto> 
+            <figcaption><p style="font-size: 14px;">Courteney</p></figcaption></figure>
             </th>
             <th>
                 <div class="panel2">
@@ -226,7 +271,8 @@
 
         <tr>
             <th>
-                <img src="Ross.png" alt="Ross" width="300" height=auto> 
+             <figure> <img src="Ross.png" alt="Ross" width="300" height=auto> 
+            <figcaption><p style="font-size: 14px;">Ross</p></figcaption></figure> 
             </th>
             <th>
                 <div class="panel1">
@@ -239,14 +285,16 @@
 
         <tr>
             <th>
-                <img src="Korina.png" alt="Korina" width="300" height=auto> 
+            <figure><img src="Korina.png" alt="Korina" width="300" height=auto>
+            <figcaption><p style="font-size: 14px;">Korina</p></figcaption></figure> 
             </th>
             <th>
                 <div class="panel2">
                 <section id="Korina's Message">
                     <p>Dear Scott, I just wanted to say that it's been so so great to meet you. You have always been so generous and willing to help and share knoweledge with other team members. 
-                    I have personally learned so much from you over the past few months, so thank you. You are the best teacher! 
-                    I am sure you have a bright future ahead. Stay awesome and keep in touch please! All the best x</p>
+                        I have personally learned so much from you over the past few months, so thank you. You are the best teacher! 
+                        I am sure you have a bright future ahead. Stay awesome and keep in touch please! All the best x</p>
+                    
                 </section>
             </div>
             </th>
@@ -254,17 +302,14 @@
        </table>
 
        <p></p>
-       
        <div class="farewell">
         <div style= "display:flex; flex-direction:column; align-items:center;">
-        <div class="center">
-            <p style="font-size: x-large;font-weight: bold;color:#ffffff">We will miss you!</p>
+        
+            <p style="font-size: x-large; text-align: center;font-weight: lighter;color:#ffffff">We will miss you!</p>
         
         </div>
-        </div>
    </div>
+       </div>
    <hr>
-    
-    </div>
-    </body>
+   </body>
 </html>
