@@ -74,17 +74,16 @@
                 background-color: rgb(43, 30, 88);
                 border: 10px solid rgb(43, 30, 88);
                 padding: 10px;
-                border-radius: 2px;
+                border-radius: 50px;
             }
             
 
             @keyframes farewell {
-                0%  {background-color:rgb(155, 79, 155); left:0px; top:0px;}
-                20%  {background-color:rgb(155, 79, 155); left:200px; top:0px;}
-                40%  {background-color:orchid; left:400px; top:0px;}
-                60%  {background-color:orange; left:600px; top:0px;}
-                80% {background-color:orange; left:800px; top:0px;}
-                100% {background-color:orange; left:1000px; top:0px;}
+                0%  {background-color:rgb(155, 79, 155); left:-400px; top:0px;}
+                25%  {background-color:rgb(155, 79, 155); left:-200px; top:0px;}
+                50%  {background-color:orchid; left:0px; top:0px;}
+                75%  {background-color:orange; left:200px; top:0px;}
+                100% {background-color:orange; left:400px; top:0px;}
             }  
 
             .farewell{
@@ -302,9 +301,8 @@
        </table>
 
        <p></p>
-       <div class="farewell">
-        <div style= "display:flex; flex-direction:column; align-items:center;">
-        
+       <div style= "display:flex; flex-direction:column; align-items:center;">
+        <div class="farewell">
             <p style="font-size: x-large; text-align: center;font-weight: lighter;color:#ffffff">We will miss you!</p>
         
         </div>
